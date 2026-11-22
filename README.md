@@ -1,4 +1,4 @@
-# pp-metal-prices
+# pp-prices
 
 Daily EUR/oz price feeds for [Portfolio Performance](https://www.portfolio-performance.info/), built from Yahoo Finance data and updated every weekday by GitHub Actions.
 
@@ -13,7 +13,7 @@ The silver multiplier is set in `metals_prices.py`. It was calibrated on 2026-11
 
 Security → Historical Quotes → provider **JSON**:
 
-- URL: `https://raw.githubusercontent.com/jakub-zovi/pp-metal-prices/main/prices/<file>.json`
+- URL: `https://raw.githubusercontent.com/jakub-zovi/pp-prices/main/prices/<file>.json`
 - Path to date: `$[*].d`
 - Path to close: `$[*].v`
 - Date format: `yyyy-MM-dd`
